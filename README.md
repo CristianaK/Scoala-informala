@@ -1,0 +1,2 @@
+# Scoala-informala
+Cursuri Python
