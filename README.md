@@ -1,2 +1,1 @@
-# Scoala-informala
-Cursuri Python
+Cursuri Python Scoala Informala GR.8
