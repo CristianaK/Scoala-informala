@@ -1,0 +1,6 @@
+numar_1 = input("Alege un numar")
+print(numar_1)
+numar_2 = input("Alege un alt numar")
+print(numar_2)
+sum = int(numar_1) ++ int(numar_2)
+print('Suma este: ', sum)
