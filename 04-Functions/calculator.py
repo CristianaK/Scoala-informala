@@ -14,7 +14,7 @@ def inmultire(a: int, b: int) -> str:
 def impartire(a: int, b: int) -> str:
     if b == 0:
         while b == 0:
-                 b = input("Aloca o noua valoarea pentru b: ")
+                 b = input("Cannot divide by zero. Choose another number ")
     return f"{a} / {b} = {a/b}"
 
 def operator() -> str:
@@ -26,7 +26,7 @@ def operator() -> str:
 
 def conversie(mesaj_input: str):
     nr = input(f"{mesaj_input}")
-        while nr.isdigit() is False:
+    while nr.isdigit() is False:
             nr = input(f"{mesaj_input}")
     return int(nr)
 
@@ -58,4 +58,12 @@ def calculator() -> str:
         rezultat = impartire(nr1, nr2)
     return rezultat
 
+# alta posibilitate la functia calculator:
+#def calculator():
+#   nr1 = conversie("Primul numar: ")
+#   nr2 = conversie("Al doilea numar:")
+#   op = operator()
+#   return f"{nr1} {op} {nr2} =", eval(f"{nr1} {op} {nr2}")
+
 print(calculator())
+
